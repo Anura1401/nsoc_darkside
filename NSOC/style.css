@@ -60,7 +60,12 @@ body {
     position: fixed;
     top: 0;
 }
-
+.header.scrolled {
+  background: #1a1a1a;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
 .bg ul li a{
    
     font-size: 16px;
