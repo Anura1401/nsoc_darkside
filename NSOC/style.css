@@ -76,7 +76,11 @@ body {
     font-size: 40px;
 
 }
+.logo:hover{
+    color: #9A7BFF;
+      text-shadow: 3px 3px 5px rgba(137, 41, 255, 0.4);
 
+}
 .main h1 {
    
     padding: 150px;
