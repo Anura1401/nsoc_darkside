@@ -213,6 +213,14 @@
   </div>
   <script>
 
+    window.addEventListener('scroll', function() {
+    const header = document.querySelector('.header');
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
     document.querySelectorAll('.placard').forEach(function (placard) {
       placard.addEventListener('mousemove', function (e) {
         let x = e.pageX - placard.offsetLeft;
